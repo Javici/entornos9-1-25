@@ -1,9 +1,10 @@
 public class coche {
 
-        String color;
-        int anyo
-        String modelo;
-        String marca;
+    public String color;
+    public int anyo;
+    public String modelo;
+    public String marca;
+    
 
     public coche (){
         System.out.println("dentro del constructor del coche");

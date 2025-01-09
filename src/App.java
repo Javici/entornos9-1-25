@@ -2,13 +2,13 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
-        coche ferrari= new coche();
+        coche coche1= new coche();
 
-        System.out.println(ferrari);
+        coche1.color = "rojo";
+        coche1.anyo = 1995;
+        coche1.modelo = "SF90";
+        coche1.marca = "Ferrari";
 
-        ferrari= null;
-
-        System.out.println(ferrari);
-
+        System.out.println(coche1);
     }
 }
