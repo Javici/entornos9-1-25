@@ -19,6 +19,17 @@ public class App {
         asignaturasRamiro.add(Biologia);
         asignaturasRamiro.add(Historia);
 
-        profesor Ramiro = new profesor("987654321A", "Ramiro", 2000, null)
+        profesor Ramiro = new profesor("987654321A", "Ramiro", 2000, null);
+
+
+
+        perro uno = new perro("Pastor Aleman");
+
+        perro dos = new perro("Carlino", "Agudo");
+
+        perro tres = new perro("Bulldog", "Grave");
+
+        uno.ladrar();
+        dos.ladrar();
     }
 }
